@@ -1,8 +1,8 @@
 {
-  "name": "supplier-system",
+  "name": "skcy-sass",
   "version": "1.0.0",
   "author": "QingTime",
-  "description": "供应商系统",
+  "description": "时空穿越Sass绿屏抠图",
   "private": true,
   "scripts": {
     "dev": "vite",
