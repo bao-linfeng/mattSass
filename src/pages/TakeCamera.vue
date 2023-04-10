@@ -629,11 +629,11 @@ export default {
                 backgroundURL.value = bgURL;
                 bgKey.value = bgId;
 
-                x.value = getQueryVariable('x') || 0;
-                y.value = getQueryVariable('y') || 0;
-                zoom.value = getQueryVariable('zoom') || 1;
-                photoH.value = getQueryVariable('h') || 1080;
-                photoW.value = getQueryVariable('w') || 1920;
+                x.value = getQueryVariable('x') ? Number(getQueryVariable('x')) : 0;
+                y.value = getQueryVariable('y') ? Number(getQueryVariable('y')) : 0;
+                zoom.value = getQueryVariable('zoom') ? Number(getQueryVariable('zoom')) : 1;
+                photoH.value = getQueryVariable('h') ? Number(getQueryVariable('h')) : 1080;
+                photoW.value = getQueryVariable('w') ? Number(getQueryVariable('w')) : 1920;
 
                 countdown.value = -1;
                 isFirst.value = false;
